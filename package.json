@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "hm-cli CLI",
   "private": true,
+  "author": "<hmoliveira83@gmail.com>",
   "types": "build/types/types.d.ts",
   "bin": {
     "hm-cli": "bin/hm-cli"
