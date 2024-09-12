@@ -1,12 +1,12 @@
 {
-  "name": "hm-cli",
-  "version": "0.0.2",
+  "name": "hm-cli-react-next",
+  "version": "1.0.01",
   "description": "hm-cli CLI",
-  "private": true,
+  "private": false,
   "author": "<hmoliveira83@gmail.com>",
   "types": "build/types/types.d.ts",
   "bin": {
-    "hm-cli": "bin/hm-cli"
+    "hm": "bin/hm-cli"
   },
   "scripts": {
     "clean-build": "rimraf -rf ./build",
