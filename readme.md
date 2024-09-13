@@ -2,26 +2,28 @@
 
 A CLI for hm-cli.
 
-## Customizing your CLI
+## install cli 
 
-Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
-
-## Publishing to NPM
-
-To package your CLI up for NPM, do this:
 
 ```shell
-# $ npm login
-# $ npm whoami
-# $ npm test
-
-# $ npm run build
-
-# $ npm publish
+ npm i -g hm-cli-react-next
 ```
-
+```shell
+yarn global add hm-cli-react-next
+```
 # License
 
 MIT - see LICENSE
 
-# hm-cli
+# hm-cli help commands
+
+```shell
+ hm -h
+  hm-cli version 1.0.03
+
+  hm-cli                     -                                         
+  version (v)                Output the version number                 
+  generate:component (g:c)   Create new Component inside src/component 
+  generate:page (g:p)        Create new page                           
+  help (h)  
+```

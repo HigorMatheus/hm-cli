@@ -6,11 +6,7 @@ const command: GluegunCommand = {
   description: 'Create new Component inside src/component',
 
   run: async (toolbox: GluegunToolbox) => {
-    const {
-      parameters,
-
-      createComponent,
-    } = toolbox
+    const { parameters, createComponent } = toolbox
 
     createComponent(`src/components`, parameters.first)
   },

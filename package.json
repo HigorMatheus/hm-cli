@@ -1,7 +1,7 @@
 {
   "name": "hm-cli-react-next",
-  "version": "1.0.01",
-  "description": "hm-cli CLI",
+  "version": "1.0.04",
+  "description": "hm-cli-react-next CLI",
   "private": false,
   "author": "<hmoliveira83@gmail.com>",
   "types": "build/types/types.d.ts",

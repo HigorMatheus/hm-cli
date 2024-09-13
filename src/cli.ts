@@ -6,7 +6,7 @@ import { build } from 'gluegun'
 async function run(argv) {
   // create a CLI runtime
   const cli = build()
-    .brand('hm-cli')
+    .brand('hm-cli-react-next')
     .src(__dirname)
     .plugins('./node_modules', { matching: 'hm-cli-*', hidden: true })
     .help() // provides default for help, h, --help, -h
